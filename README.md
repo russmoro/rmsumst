@@ -14,9 +14,11 @@ Maintainer: The package maintainer <Russ.Moro@brunel.ac.uk>
 
 How to install it in R:
 
-To install the library in R execute this line:
+To install the package in R execute this line:
+
 devtools::install_github("russmoro/rmsumst")
-Note: you need to have the library devtools installed beforehand.
+
+Note: you need to have the package "devtools" installed beforehand.
 
 Description:
 
