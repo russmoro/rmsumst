@@ -8,6 +8,7 @@ Title: The package estimates the most essential summary/descriptive statistics
 Version: 0.1.0
 Author: Dr Russ Moro
 Maintainer: The package maintainer <Russ.Moro@brunel.ac.uk>
+
 Description: The package estimates two groups of summary/descriptive statistics for each
 variable (column) of the data, so it performs univariate descriptive analysis.
       (1) The most essential quantiles that are ordered from minimum to maximum:
@@ -56,6 +57,7 @@ variable (column) of the data, so it performs univariate descriptive analysis.
             the tails of the distribution.
 Additionally the package also reports the number of non-missing observations for
 each variable.
+
 License: GPLv3
 Encoding: UTF-8
 LazyData: FALSE
