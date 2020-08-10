@@ -26,6 +26,7 @@ variable (column) of the data, so it performs univariate descriptive analysis.
             estimate of the left tail boundary.
             
             (c) P25 -- the 25% percentile, a.k.a. the first quartile Q1.
+            
             (d) MED -- median, the central observation of the sample (or the average
             of the two central observations if the number of observations is even).
             It is a.k.a. the second quartile Q2. Half of the observations in the
