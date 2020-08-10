@@ -12,6 +12,12 @@ Author: Dr Russ Moro
 
 Maintainer: The package maintainer <Russ.Moro@brunel.ac.uk>
 
+How to install it in R:
+
+To install the library in R execute this line:
+devtools::install_github("russmoro/rmsumst")
+Note: you need to have the library devtools installed beforehand.
+
 Description:
 
 The package estimates two groups of summary/descriptive statistics for each
@@ -63,7 +69,7 @@ variable (column) of the data, so it performs univariate descriptive analysis.
             of non-symmetricity. For any symmetric distribution skewness is zero
             (the inverse is generally not true). Negative skewness indicates that the
             left tail is longer/heavier. Positive skewness indicates that the right
-            tail is longer/heavier. 
+            tail is longer/heavier.
             
             (d) EXKURT -- excess kurtosis, which is a measure of heavy-tailedness,
             it is the difference between kurtosis and 3, e.g. EXKURT = KURT-3, where
