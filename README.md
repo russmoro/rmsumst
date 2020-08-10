@@ -63,7 +63,7 @@ variable (column) of the data, so it performs univariate descriptive analysis.
             of non-symmetricity. For any symmetric distribution skewness is zero
             (the inverse is generally not true). Negative skewness indicates that the
             left tail is longer/heavier. Positive skewness indicates that the right
-            tail is longer/heavier.
+            tail is longer/heavier. 
             
             (d) EXKURT -- excess kurtosis, which is a measure of heavy-tailedness,
             it is the difference between kurtosis and 3, e.g. EXKURT = KURT-3, where
