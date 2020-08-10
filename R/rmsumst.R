@@ -19,7 +19,7 @@ rmsumst = function(B){
     P5 = stats::quantile( X, probs=0.05 )[[1]]
     #5 percent percentile, this is a conservative boundary of the left tail
     P25 = stats::quantile( X, probs=0.25 )[[1]]
-    MED = base::median(X)
+    MED = stats::median(X)
     #50 percent of the data, it splits the data 50/50 and is one of the most important quantiles of the distribution
     P75 = stats::quantile( X, probs=0.75 )[[1]]
     #note that the interquartile range is IQR=P75-P25
